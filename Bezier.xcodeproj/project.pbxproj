@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0005B45C1ECCCD7F00FB8400 /* BezierView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005B45B1ECCCD7F00FB8400 /* BezierView.m */; };
+		0006BE0D1ECD2C4900AF20A5 /* HeartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0006BE0C1ECD2C4900AF20A5 /* HeartView.m */; };
 		00434C781ECCA16200AE4C56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00434C771ECCA16200AE4C56 /* main.m */; };
 		00434C7B1ECCA16200AE4C56 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00434C7A1ECCA16200AE4C56 /* AppDelegate.m */; };
 		00434C7E1ECCA16200AE4C56 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00434C7D1ECCA16200AE4C56 /* ViewController.m */; };
@@ -35,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0005B45A1ECCCD7F00FB8400 /* BezierView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierView.h; sourceTree = "<group>"; };
+		0005B45B1ECCCD7F00FB8400 /* BezierView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierView.m; sourceTree = "<group>"; };
+		0006BE0B1ECD2C4900AF20A5 /* HeartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeartView.h; sourceTree = "<group>"; };
+		0006BE0C1ECD2C4900AF20A5 /* HeartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeartView.m; sourceTree = "<group>"; };
 		00434C731ECCA16200AE4C56 /* Bezier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bezier.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00434C771ECCA16200AE4C56 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		00434C791ECCA16200AE4C56 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +111,10 @@
 				00434C7A1ECCA16200AE4C56 /* AppDelegate.m */,
 				00434C7C1ECCA16200AE4C56 /* ViewController.h */,
 				00434C7D1ECCA16200AE4C56 /* ViewController.m */,
+				0006BE0B1ECD2C4900AF20A5 /* HeartView.h */,
+				0006BE0C1ECD2C4900AF20A5 /* HeartView.m */,
+				0005B45A1ECCCD7F00FB8400 /* BezierView.h */,
+				0005B45B1ECCCD7F00FB8400 /* BezierView.m */,
 				00434C7F1ECCA16200AE4C56 /* Main.storyboard */,
 				00434C821ECCA16200AE4C56 /* Assets.xcassets */,
 				00434C841ECCA16200AE4C56 /* LaunchScreen.storyboard */,
@@ -279,6 +289,8 @@
 				00434C7E1ECCA16200AE4C56 /* ViewController.m in Sources */,
 				00434C7B1ECCA16200AE4C56 /* AppDelegate.m in Sources */,
 				00434C781ECCA16200AE4C56 /* main.m in Sources */,
+				0006BE0D1ECD2C4900AF20A5 /* HeartView.m in Sources */,
+				0005B45C1ECCCD7F00FB8400 /* BezierView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +528,7 @@
 				00434CA21ECCA16200AE4C56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00434CA31ECCA16200AE4C56 /* Build configuration list for PBXNativeTarget "BezierTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +537,7 @@
 				00434CA51ECCA16200AE4C56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00434CA61ECCA16200AE4C56 /* Build configuration list for PBXNativeTarget "BezierUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +546,7 @@
 				00434CA81ECCA16200AE4C56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
